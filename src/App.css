@@ -1,0 +1,75 @@
+/* General Style */
+body {
+  background-color: #f7f9fc;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  margin: 0;
+  align-items: center;
+}
+
+.mainDiv {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 250px;
+  background-color: #2d2d33;
+  box-shadow: 0px 4px 12px rgba(135, 93, 190, 0.1);
+  border-radius: 8px;
+  align-items: center;
+}
+
+h1 {
+  color: #5557bd;
+  font-size: 20px;
+}
+
+.taskInput {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+
+  border: 1px solid #9d4f4f;
+  width: 70%;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #7e68ac;
+  color: rgb(44, 37, 37);
+  border: none;
+  border-radius: 6px;
+}
+
+button:hover {
+  background-color: #8585d6;
+}
+
+/* Task List Styling */
+.taskList {
+  margin-top: 20px;
+}
+
+.taskItem {
+  display: flex;
+
+  justify-content: space-between;
+  background-color: #adc2d7;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 4px;
+}
+
+.taskItem p {
+  margin: 0;
+  color: #1538ea;
+}
+
+.taskItem button {
+  background-color: #bba3a3;
+}
+
+.taskItem button:hover {
+  background-color: #ce0b0b;
+}
